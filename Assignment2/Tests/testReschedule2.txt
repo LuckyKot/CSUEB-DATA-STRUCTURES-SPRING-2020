@@ -1,0 +1,96 @@
+//Similar test to previous but now there are 2 doctors and 3 patients (2 going to waitlist), 
+//thus there is no available doctor for the third patient after doctor1 checks out
+//it detects that and warns that there is no place and the user must reschedule manually.
+----------------------------------------
+Welcome to doctor Scheduling Program!
+Please, choose one of the options below:
+----------------------------------------
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+1
+Option 1 selected, Doctor check-in
+Please, enter your name:
+ped
+Please, enter the room number you prefer:
+103
+Please, enter your specialty code:
+PED
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+1
+Option 1 selected, Doctor check-in
+Please, enter your name:
+gen
+Please, enter the room number you prefer:
+207
+Please, enter your specialty code:
+GEN
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+3
+Option 3 selected, Patient check-in
+Please, enter your name:
+ped1
+Please, enter your age:
+4
+The doctor is ready to take you right now
+ped1 PED 103 ped
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+3
+Option 3 selected, Patient check-in
+Please, enter your name:
+ped2
+Please, enter your age:
+15
+The doctor is busy with another patient at the moment.
+Please, wait
+ped2 PED 103 ped on waitlist
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+3
+Option 3 selected, Patient check-in
+Please, enter your name:
+ped3
+Please, enter your age:
+24
+Please, specify the specialization of the doctor you would like to meet:
+PED
+The doctor is busy with another patient at the moment.
+Please, wait
+ped3 PED 103 ped on waitlist
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+2
+Option 2 selected, Doctor check-out
+Please, enter your name:
+ped
+The session of doctor ped in room 103 with ped1 has ended
+Have a nice day, doctor ped
+Rescheduling clients from waitlist to other available doctors
+rescheduled ped2 to doctor gen
+There are no available doctors for reschedule of ped3
+Please, come back later for manual reschedule
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit

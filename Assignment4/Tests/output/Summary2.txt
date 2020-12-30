@@ -1,0 +1,8 @@
+validity: 1
+test: 1
+file: 1
+here: 1
+File name: Test.txt
+Number of words over 4 letters: 9
+Number of unique words: 13
+Total words in the text: 17

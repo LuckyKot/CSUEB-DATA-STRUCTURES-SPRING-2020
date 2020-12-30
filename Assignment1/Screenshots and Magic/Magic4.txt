@@ -1,0 +1,6 @@
+//deletion with no events scheduled, just removes from list
+option 4
+Dennis Kyriakos
+Dennis Kyriakos was dropped
+option 6
+saving schedule.txt and exiting

@@ -1,0 +1,146 @@
+//test of patient signup option
+//under 16 go to pediatrist
+//INT guy goes to INT doctor
+//multiple people who need 1 special doctor wait in waitlists
+//those, who need unavailable specs get General doc
+----------------------------------------
+Welcome to doctor Scheduling Program!
+Please, choose one of the options below:
+----------------------------------------
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+1
+Option 1 selected, Doctor check-in
+Please, enter your name:
+ped
+Please, enter the room number you prefer:
+105
+Please, enter your specialty code:
+PED
+ped signs in room 105 spec: (PED)
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+1
+Option 1 selected, Doctor check-in
+Please, enter your name:
+gen
+Please, enter the room number you prefer:
+205
+Please, enter your specialty code:
+GEN
+gen signs in room 205 spec: (GEN)
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+1
+Option 1 selected, Doctor check-in
+Please, enter your name:
+int
+Please, enter the room number you prefer:
+203
+Please, enter your specialty code:
+INT
+int signs in room 203 spec: (INT)
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+3
+Option 3 selected, Patient check-in
+Please, enter your name:
+kid
+Please, enter your age:
+10
+The doctor is ready to take you right now
+kid PED 105 ped
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+3
+Option 3 selected, Patient check-in
+Please, enter your name:
+anotherkid
+Please, enter your age:
+14
+The doctor is busy with another patient at the moment.
+Please, wait
+anotherkid PED 105 ped on waitlist
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+3
+Option 3 selected, Patient check-in
+Please, enter your name:
+needped
+Please, enter your age:
+24
+Please, specify the specialization of the doctor you would like to meet:
+PED
+The doctor is busy with another patient at the moment.
+Please, wait
+needped PED 105 ped on waitlist
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+3
+Option 3 selected, Patient check-in
+Please, enter your name:
+needint
+Please, enter your age:
+24
+Please, specify the specialization of the doctor you would like to meet:
+INT
+The doctor is ready to take you right now
+needint INT 203 int
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+3
+Option 3 selected, Patient check-in
+Please, enter your name:
+needint2
+Please, enter your age:
+56
+Please, specify the specialization of the doctor you would like to meet:
+INT
+The doctor is busy with another patient at the moment.
+Please, wait
+needint2 INT 203 int on waitlist
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+3
+Option 3 selected, Patient check-in
+Please, enter your name:
+unavailablespec
+Please, enter your age:
+46
+Please, specify the specialization of the doctor you would like to meet:
+OBS
+The specified specialization is not available today, checking for General doctors availability...
+The doctor is ready to take you right now
+unavailablespec GEN 205 gen
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit

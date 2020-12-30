@@ -1,0 +1,44 @@
+city: 1
+the: 18
+in: 4
+a: 5
+of: 16
+head: 1
+gnaws: 3
+rat: 6
+and: 7
+cables: 1
+Rats: 2
+caused: 1
+are: 6
+all: 2
+percent: 2
+as: 1
+one: 2
+to: 9
+rats: 2
+cable: 1
+vines: 1
+their: 1
+be: 1
+wires: 4
+that: 1
+like: 2
+per: 1
+steel: 1
+teeth: 2
+rat's: 2
+brown: 2
+down: 1
+incisors: 4
+is: 2
+its: 3
+grow: 1
+it: 1
+When: 1
+two: 1
+front: 1
+File name: Rats2.txt
+Number of words over 4 letters: 136
+Number of unique words: 175
+Total words in the text: 298

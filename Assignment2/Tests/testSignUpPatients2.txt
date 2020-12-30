@@ -1,0 +1,134 @@
+//test of various situations when doctors are not available
+//tests: no doctors at all, no gen doctors (so the patients get ANY doctor available)
+//gen doctor is preset but patient needs someone else (they get gen doctor)
+//waitlists still work: if the doctor is seeing someone who didnt really want that particular doctor
+//the one who really needs THAT doctor is still going to wait
+----------------------------------------
+Welcome to doctor Scheduling Program!
+Please, choose one of the options below:
+----------------------------------------
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+3
+Option 3 selected, Patient check-in
+Please, enter your name:
+guy
+Please, enter your age:
+10
+The specified specialization is not available today, checking for General doctors availability...
+There are no General doctors available. Appointing any other available doctor
+Sorry, there are no doctors available at the moment, come back later
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+3
+Option 3 selected, Patient check-in
+Please, enter your name:
+guy2
+Please, enter your age:
+24
+Please, specify the specialization of the doctor you would like to meet:
+PED
+The specified specialization is not available today, checking for General doctors availability...
+There are no General doctors available. Appointing any other available doctor
+Sorry, there are no doctors available at the moment, come back later
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+1
+Option 1 selected, Doctor check-in
+Please, enter your name:
+doctorINT
+Please, enter the room number you prefer:
+203
+Please, enter your specialty code:
+INT
+doctorINT signs in room 203 spec: (INT)
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+3
+Option 3 selected, Patient check-in
+Please, enter your name:
+guy3
+Please, enter your age:
+24
+Please, specify the specialization of the doctor you would like to meet:
+GEN
+The specified specialization is not available today, checking for General doctors availability...
+There are no General doctors available. Appointing any other available doctor
+The doctor is ready to take you right now
+guy3 INT 203 doctorINT
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+1
+Option 1 selected, Doctor check-in
+Please, enter your name:
+doctorGEN
+Please, enter the room number you prefer:
+110
+Please, enter your specialty code:
+GEN
+doctorGEN signs in room 110 spec: (GEN)
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+3
+Option 3 selected, Patient check-in
+Please, enter your name:
+guy4
+Please, enter your age:
+12
+The specified specialization is not available today, checking for General doctors availability...
+The doctor is ready to take you right now
+guy4 GEN 110 doctorGEN
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+3
+Option 3 selected, Patient check-in
+Please, enter your name:
+guy5
+Please, enter your age:
+3
+The specified specialization is not available today, checking for General doctors availability...
+The doctor is busy with another patient at the moment.
+Please, wait
+guy5 GEN 110 doctorGEN on waitlist
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+3
+Option 3 selected, Patient check-in
+Please, enter your name:
+guy6
+Please, enter your age:
+27
+Please, specify the specialization of the doctor you would like to meet:
+INT
+The doctor is busy with another patient at the moment.
+Please, wait
+guy6 INT 203 doctorINT on waitlist
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit

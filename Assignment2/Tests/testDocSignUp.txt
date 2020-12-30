@@ -1,0 +1,99 @@
+//tests all possible combinations for doc sign up
+//wrong room #, wrong spec, occupied room, occupied spec, different spec and different room go through
+----------------------------------------
+Welcome to doctor Scheduling Program!
+Please, choose one of the options below:
+----------------------------------------
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+1
+Option 1 selected, Doctor check-in
+Please, enter your name:
+test1
+Please, enter the room number you prefer:
+10101010
+Please, enter your specialty code:
+zxc
+Sorry, this room must be occupied or does not exist
+Please, try again
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+1
+Option 1 selected, Doctor check-in
+Please, enter your name:
+test2
+Please, enter the room number you prefer:
+105
+Please, enter your specialty code:
+ZXC
+Sorry, there is no such speciality as ZXC or it there already is a doctor with it
+Please, try again
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+1
+Option 1 selected, Doctor check-in
+Please, enter your name:
+test3
+Please, enter the room number you prefer:
+105
+Please, enter your specialty code:
+PED
+test3 signs in room 105 spec: (PED)
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+1
+Option 1 selected, Doctor check-in
+Please, enter your name:
+test4
+Please, enter the room number you prefer:
+105
+Please, enter your specialty code:
+PED
+Sorry, this room must be occupied or does not exist
+Please, try again
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+1
+Option 1 selected, Doctor check-in
+Please, enter your name:
+test5
+Please, enter the room number you prefer:
+110
+Please, enter your specialty code:
+PED
+Sorry, there is no such speciality as PED or it there already is a doctor with it
+Please, try again
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+1
+Option 1 selected, Doctor check-in
+Please, enter your name:
+test6
+Please, enter the room number you prefer:
+110
+Please, enter your specialty code:
+GEN
+test6 signs in room 110 spec: (GEN)
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit

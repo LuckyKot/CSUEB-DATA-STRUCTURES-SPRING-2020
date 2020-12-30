@@ -1,0 +1,122 @@
+//This tests the rescheduling function if the doctor who is signing out has waitlist
+//other available doctors take the patients that were on said wait list
+----------------------------------------
+Welcome to doctor Scheduling Program!
+Please, choose one of the options below:
+----------------------------------------
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+1
+Option 1 selected, Doctor check-in
+Please, enter your name:
+ped
+Please, enter the room number you prefer:
+105
+Please, enter your specialty code:
+PED
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+1
+Option 1 selected, Doctor check-in
+Please, enter your name:
+gen
+Please, enter the room number you prefer:
+202
+Please, enter your specialty code:
+GEN
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+1
+Option 1 selected, Doctor check-in
+Please, enter your name:
+int
+Please, enter the room number you prefer:
+220
+Please, enter your specialty code:
+12
+Sorry, this room must be occupied or does not exist
+Please, try again
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+1
+Option 1 selected, Doctor check-in
+Please, enter your name:
+int
+Please, enter the room number you prefer:
+210
+Please, enter your specialty code:
+INT
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+3
+Option 3 selected, Patient check-in
+Please, enter your name:
+ped1
+Please, enter your age:
+12
+The doctor is ready to take you right now
+ped1 PED 105 ped
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+3
+Option 3 selected, Patient check-in
+Please, enter your name:
+ped2
+Please, enter your age:
+24
+Please, specify the specialization of the doctor you would like to meet:
+PED
+The doctor is busy with another patient at the moment.
+Please, wait
+ped2 PED 105 ped on waitlist
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+3
+Option 3 selected, Patient check-in
+Please, enter your name:
+ped3
+Please, enter your age:
+5
+The doctor is busy with another patient at the moment.
+Please, wait
+ped3 PED 105 ped on waitlist
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+2
+Option 2 selected, Doctor check-out
+Please, enter your name:
+ped
+The session of doctor ped in room 105 with ped1 has ended
+Have a nice day, doctor ped
+Rescheduling clients from waitlist to other available doctors
+rescheduled ped2 to doctor gen
+rescheduled ped3 to doctor int
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit

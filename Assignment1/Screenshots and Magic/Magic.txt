@@ -1,0 +1,88 @@
+//This magic item shows simplest operations, addition of new magicians on the list
+//and basic scheduling without wailists
+//also schedules the just added "Jericho" magician with the job
+//then it tests the 5th option
+//5th option determines if the user entered a magician's name or holiday
+//then gives all scheduled entries with that item
+//this magic file and every next magic file depict the 6th option
+//which is saving schedule.txt and quitting
+option 3 
+Steve
+Steve added
+option 3 
+Jericho
+Jericho added
+option 4
+Steve
+Steve was dropped
+Option 1
+Ivan
+MLK day
+Option 1
+ivan
+MLK Day
+Dennis Kyriakos MLK Day ivan scheduled!
+Option 1
+Carl
+MLK Day
+Dan Chan MLK Day Carl scheduled!
+Option 1
+Daniel
+MLK Day
+Dorian Rhodell MLK Day Daniel scheduled!
+Option 1
+Kate
+MLK Day
+Ryan Kane MLK Day Kate scheduled!
+Option 1
+Elon
+MLK Day
+Alan MLK Day Elon scheduled!
+Option 1
+Alex
+MLK Day
+Glen Michelette MLK Day Alex scheduled!
+Option 1
+Noone
+MLK Day
+Mark Robinson MLK Day Noone scheduled!
+Option 1
+Last
+MLK Day
+Sebastian Boswell MLK Day Last scheduled!
+Option 1
+Last
+MLK Day
+Gabriel Holmes MLK Day Last scheduled!
+Option 1
+Last
+MLK Day
+Heather Rogers MLK Day Last scheduled!
+Option 1
+Anthony
+MLK Day
+Jericho MLK Day Anthony scheduled!
+option 2 
+Last
+MLK Day
+MLK Day Last has been deleted from the list.
+option 5
+MLK Day
+determined that it's a holiday 
+Dennis Kyriakos MLK Day ivan
+Dan Chan MLK Day Carl
+Dorian Rhodell MLK Day Daniel
+Ryan Kane MLK Day Kate
+Alan MLK Day Elon
+Glen Michelette MLK Day Alex
+Mark Robinson MLK Day Noone
+Sebastian Boswell MLK Day Last
+Gabriel Holmes MLK Day Last
+Heather Rogers MLK Day Last
+Jericho MLK Day Anthony
+option 5
+Jericho
+determined that it's a magician
+Jericho MLK Day Anthony
+option 6
+saving schedule.txt and exiting

@@ -1,0 +1,68 @@
+//schedules 10 clients on one day causing overflow
+//the 11-th guy and his holiday gets into waitlist
+//after cancellation from someone else, that guy and his holiday
+//get the magician that just freed.
+Option 1
+q
+MLK Day
+Dennis Kyriakos MLK Day q scheduled!
+Option 1
+w
+MLK Day
+Dan Chan MLK Day w scheduled!
+Option 1
+e
+MLK Day
+Dorian Rhodell MLK Day e scheduled!
+Option 1
+r
+MLK Day
+Ryan Kane MLK Day r scheduled!
+Option 1
+t
+MLK Day
+Alan MLK Day t scheduled!
+Option 1
+y
+MLK Day
+Glen Michelette MLK Day y scheduled!
+Option 1
+y
+MLK Day
+Mark Robinson MLK Day y scheduled!
+Option 1
+u
+MLK Day
+Sebastian Boswell MLK Day u scheduled!
+Option 1
+i
+MLK Day
+Gabriel Holmes MLK Day i scheduled!
+Option 1
+o
+MLK Day
+Heather Rogers MLK Day o scheduled!
+Option 1
+p
+MLK Day
+MLK Day p were put in waitlist
+option 2 
+q
+MLK Day
+MLK Day q has been deleted from the list.
+Dennis Kyriakos MLK Day q rescheduled from waitlist!!
+option 5
+MLK Day
+determined that it's a holiday 
+Heather Rogers MLK Day o
+Dan Chan MLK Day w
+Dorian Rhodell MLK Day e
+Ryan Kane MLK Day r
+Alan MLK Day t
+Glen Michelette MLK Day y
+Mark Robinson MLK Day y
+Sebastian Boswell MLK Day u
+Gabriel Holmes MLK Day i
+Dennis Kyriakos MLK Day p
+option 6
+saving schedule.txt and exiting

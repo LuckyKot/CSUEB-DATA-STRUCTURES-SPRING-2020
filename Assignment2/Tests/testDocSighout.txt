@@ -1,0 +1,86 @@
+//test of doc sign out options without rescheduling of waitlist
+//sign in and sigh out without patient present (flyby), try to sign out with random name (non-existant doctor)gives error 
+//sign in and sign out with patient present (as if it was the last patient
+//and he leaves right after seeing him)
+----------------------------------------
+Welcome to doctor Scheduling Program!
+Please, choose one of the options below:
+----------------------------------------
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+1
+Option 1 selected, Doctor check-in
+Please, enter your name:
+test1
+Please, enter the room number you prefer:
+105
+Please, enter your specialty code:
+PED
+test1 signs in room 105 spec: (PED)
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+2
+Option 2 selected, Doctor check-out
+Please, enter your name:
+test1
+Have a nice day, doctor test1
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+2
+Option 2 selected, Doctor check-out
+Please, enter your name:
+test5
+There is no such doctor present at the moment
+Please try again
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+1
+Option 1 selected, Doctor check-in
+Please, enter your name:
+test1
+Please, enter the room number you prefer:
+105
+Please, enter your specialty code:
+PED
+test1 signs in room 105 spec: (PED)
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+3
+Option 3 selected, Patient check-in
+Please, enter your name:
+patient
+Please, enter your age:
+12
+The doctor is ready to take you right now
+patient PED 105 test1
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit
+2
+Option 2 selected, Doctor check-out
+Please, enter your name:
+test1
+The session of doctor test1 in room 105 with patient has ended
+Have a nice day, doctor test1
+1.Doctor check-in
+2.Doctor check-out
+3.Patient check-in
+4.Patient check-out
+5.Exit

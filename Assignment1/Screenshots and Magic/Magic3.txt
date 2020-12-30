@@ -1,0 +1,13 @@
+//deletion with scheduled event
+//detects if there is an event related to that magician
+//and passes onto another before quiting.
+Option 1
+guy
+MLK Day
+Dennis Kyriakos MLK Day guy scheduled!
+option 4
+Dennis Kyriakos
+Dennis Kyriakos was dropped
+Heather Rogers MLK Day guy rescheduled!
+option 6
+saving schedule.txt and exiting
